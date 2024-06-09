@@ -78,7 +78,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
         return Icons.flash_on;
       case 'drizzle':
         return Icons.grain;
-//ليث معمر أسبر
+//علي نادر علي
       case 'mist':
       case 'smoke':
       case 'haze':
@@ -117,7 +117,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
               Text(
                 _cityFetched,
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-              ),//علي نادر علي
+              ),
               SizedBox(height: 20),
               Icon(
                 _weatherIcon,
